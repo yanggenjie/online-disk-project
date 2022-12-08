@@ -17,9 +17,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
+    packet.cpp \
     tcpServer.cpp
 
 HEADERS += \
+    packet.h \
     tcpServer.h
 
 FORMS += \
